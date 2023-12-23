@@ -91,10 +91,10 @@ ul{
 .Hero{
   display: flex;
   margin: auto;
-
   justify-items: center;
   justify-content: center;
   font-family: 'Karla', sans-serif;
+  height: 406px;
 }
 
 .Hero img{
@@ -104,9 +104,40 @@ ul{
 }
 
 
+/******************************************
+  Highlights
+*******************************************/
+.Highlights{
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+/******************************************
+  Button
+*******************************************/
+.Button{
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  height: 60px;
+  width: 200px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+
 /* Footer */
 .Footer{
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   width: 100%;
   height:279px;

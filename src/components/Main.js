@@ -1,4 +1,5 @@
 import React from "react";
+import pic1 from '../images/Slice 4.png';
 
 const Main = () => {
     return (
@@ -11,7 +12,7 @@ const Main = () => {
                     <button className="Button">Reserve a Table</button>
                 </div>
                 <div>
-                    <img></img>
+                    <img src={pic1} alt="Slicing Lemon"></img>
                 </div>
             </div>
             <div className="Highlights col-9">
