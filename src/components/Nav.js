@@ -3,7 +3,7 @@ import logo from '../images/littleLemon.png';
 
 const Nav = () => {
     return (
-        <div className="Navbar col-9">
+        <div className="Navbar">
             <ul>
                 <li><img src={logo}alt="Little-Lemon-Logo"></img></li>
                 <li><a href="#home">Home</a></li>
