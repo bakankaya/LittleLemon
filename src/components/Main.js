@@ -1,7 +1,14 @@
 import React from "react";
-import pic1 from '../images/Slice 4.png';
+import pic1 from '../images/restaurant.jpg';
 import pic2 from '../images/greekSalad.jpg';
 import pic3 from '../images/bruschetta.jpg';
+import pic4 from '../images/lemonDessert.jpg';
+import testi1 from '../images/testi1.jpg';
+import testi2 from '../images/testi2.jpg';
+import testi3 from '../images/testi3.jpg';
+import testi4 from '../images/testi4.jpg';
+import rating from '../images/rating.png';
+
 
 const Main = () => {
     return (
@@ -14,7 +21,7 @@ const Main = () => {
                     <button className="Button">Reserve a Table</button>
                 </div>
                 <div>
-                    <img src={pic1} alt="Slicing Lemon"></img>
+                    <img src={pic1} alt="Restourant Interior"></img>
                 </div>
             </div>
             <div className="Highlights">
@@ -40,7 +47,7 @@ const Main = () => {
                         <button>Order a Delivery</button>
                     </div>
                     <div className="Card">
-                        <img src={pic1} alt="Slicing Lemon"></img>
+                        <img src={pic4} alt="Lemon Dessert"></img>
                         <h4>Lemon Dessert</h4>
                         <h4>$5.00</h4>
                         <p>This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.</p>
@@ -54,7 +61,7 @@ const Main = () => {
                         <div className="Cardtest">
                             <h6>Rating</h6>
                             <div>
-                                <img></img>
+                                <img src={testi1} alt="customer"></img>
                                 <h6>Name</h6>
                             </div>
                             <p>Review</p>
@@ -62,7 +69,7 @@ const Main = () => {
                         <div className="Cardtest">
                         <h6>Rating</h6>
                             <div>
-                                <img></img>
+                                <img src={testi2} alt="customer"></img>
                                 <h6>Name</h6>
                             </div>
                             <p>Review</p>
@@ -70,7 +77,7 @@ const Main = () => {
                         <div className="Cardtest">
                         <h6>Rating</h6>
                             <div>
-                                <img></img>
+                                <img src={testi3} alt="customer"></img>
                                 <h6>Name</h6>
                             </div>
                             <p>Review</p>
@@ -78,7 +85,7 @@ const Main = () => {
                         <div className="Cardtest">
                         <h6>Rating</h6>
                             <div>
-                                <img></img>
+                                <img src={testi4} alt="customer"></img>
                                 <h6>Name</h6>
                             </div>
                             <p>Review</p>
