@@ -23,15 +23,19 @@ const Main = () =>{
                 </div>
                 <div className="Card">
                     <img src={pic3} alt="Bruschetta"></img>
-                    <h4>Bruschetta</h4>
-                    <h4>$5.99</h4>
+                    <div className="Highlights-Header">
+                        <h4>Bruschetta</h4>
+                        <h4>$5.99</h4>
+                    </div>
                     <p>Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil. </p>
                     <button>Order a Delivery</button>
                 </div>
                 <div className="Card">
                     <img src={pic4} alt="Lemon Dessert"></img>
-                    <h4>Lemon Dessert</h4>
-                    <h4>$5.00</h4>
+                    <div className="Highlights-Header">
+                        <h4>Lemon Dessert</h4>
+                        <h4>$5.00</h4>
+                    </div>
                     <p>This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.</p>
                     <button>Order a Delivery</button>
                 </div>

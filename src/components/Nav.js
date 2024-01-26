@@ -20,7 +20,7 @@ const Nav = () => {
             <div className="burger-icon" onClick={toggleMenu}>
                 <img src={burgermenu} alt="Navigation Bar" />
             </div>
-            <ul>
+            <ul className={`navlinks ${menuOpen ? "visible" : ""}`}>
                 <li><Link to="/">Home</Link></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#menu">Menu</a></li>
