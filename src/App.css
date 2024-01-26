@@ -12,7 +12,7 @@
   padding: 0;
 }
 
-  body {
+body {
   margin: 0;
   font-family: 'Markazi Text', serif, 'Karla', sans-serif;
   font-size: 1rem;
@@ -57,27 +57,32 @@ list-style: none;
  Navigation Bar
 /*---------------------------------*/
 
-.Navbar{
+.navbar{
     grid-column-start: 2;
     font-family: 'Karla', sans-serif;
 }
 
-.Navbar img{
+.navbar-logo{
     height: auto;
     width: 20vw;
     object-fit: cover;
 }
 
-.Navbar ul{
+.navbar ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.Navbar li{
+.navbar li{
     text-align: center;
     font-weight: 600;
     color: var(--color-highlight-2);
+}
+
+.burger-icon {
+  width: 25px;
+  height: auto;
 }
 
 /******************************************

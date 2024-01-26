@@ -1,11 +1,27 @@
 import React from "react";
+import { useState } from "react";
 
-const BookingForm = () =>{
-/*    return(
-        <form style="display: grid; max-width: 200px; gap: 20px">
-            <label for="res-date">Choose date</label>
-            <input type="date" id="res-date">
-            <label for="res-time">Choose time</label>
+const BookingForm = (props) =>{
+
+    const [occasion, setOccasion] = useState("");
+    const [guests, setGuests] = useState("");
+    const [date, setDate] = useState("");
+    const [times, setTimes] = useState("")
+
+    const handleSumbit = (e) => {
+    e.preventDefault();
+    props.submitForm(e);
+    };
+
+    const handleChange = (e) => {
+     setDate(e);
+     props.dispatch(e);
+    }
+    return(
+        <form style={{display:"grid", gridColumnStart:"2", maxWidth: "200px", gap:"20px"}} onSubmit={handleSumbit}>
+            <label htmlFor="res-date">Choose date</label>
+            <input type="date" id="res-date" />
+            <label htmlFor="res-time">Choose time</label>
             <select id="res-time ">
                 <option>17:00</option>
                 <option>18:00</option>
@@ -14,16 +30,16 @@ const BookingForm = () =>{
                 <option>21:00</option>
                 <option>22:00</option>
             </select>
-            <label for="guests">Number of guests</label>
-            <input type="number" placeholder="1" min="1" max="10" id="guests">
-            <label for="occasion">Occasion</label>
+            <label htmlFor="guests">Number of guests</label>
+            <input type="number" placeholder="1" min="1" max="10" id="guests" />
+            <label htmlFor="occasion">Occasion</label>
             <select id="occasion">
                 <option>Birthday</option>
                 <option>Anniversary</option>
             </select>
-            <input type="submit" value="Make Your reservation">
+            <input type="submit" value="Make Your reservation" />
         </form>
-    ) */
+    )
 }
 
 export default BookingForm;
