@@ -3,7 +3,7 @@ import logo2 from '../images/littleLemon2.png';
 
 const Footer = () => {
     return (
-        <div className="Footer col-9">
+        <div className="Footer">
             <img src={logo2}alt="Little-Lemon-Logo"></img>
             <ul>Doormat <br></br> Navigation
                 <li><a href="#home">Home</a></li>

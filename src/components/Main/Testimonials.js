@@ -12,36 +12,32 @@ const Main = () =>{
         <h2>Testimonials</h2>
             <div className="Testi-Carousel">
                 <div className="Cardtest">
-                    <h6>Rating</h6>
                     <div>
                         <img src={testi1} alt="customer"></img>
-                        <h6>Name</h6>
+                        <h3>Name</h3>
                     </div>
-                    <p>Review</p>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
                 </div>
                 <div className="Cardtest">
-                <h6>Rating</h6>
                     <div>
                         <img src={testi2} alt="customer"></img>
-                        <h6>Name</h6>
+                        <h3>Name</h3>
                     </div>
-                    <p>Review</p>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
                 </div>
                 <div className="Cardtest">
-                <h6>Rating</h6>
                     <div>
                         <img src={testi3} alt="customer"></img>
-                        <h6>Name</h6>
+                        <h3>Name</h3>
                     </div>
-                    <p>Review</p>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
                 </div>
                 <div className="Cardtest">
-                <h6>Rating</h6>
                     <div>
                         <img src={testi4} alt="customer"></img>
-                        <h6>Name</h6>
+                        <h3>Name</h3>
                     </div>
-                    <p>Review</p>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
                 </div>
             </div>
     </div>
