@@ -153,15 +153,17 @@ list-style: none;
 .Highlights-Header{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 5px;
+    padding: 5px 4px;
 }
 
 .Highlights-Cards{
     display: flex;
     grid-gap: 2vw;
+    justify-content: space-between;
 }
 
 .Card{
+    max-width: 23vw;
     background-color: var(--color-highlight-1);
     border-radius: 15px;
     font-size: 1.1em;
@@ -227,6 +229,7 @@ list-style: none;
 .Cardtest p{
   text-align: center;
   font-family: Karla;
+  padding: 4px;
 }
 
 
@@ -397,6 +400,10 @@ form{
     align-items: center;
   }
 
+  .navlinks.visible li{
+    padding: 1.5em;
+  }
+
   .Hero img{
     display: none;
   }
@@ -406,10 +413,30 @@ form{
     flex-direction: column;
   }
 
+  .Card{
+    max-width: 80vw;
+  }
+
   .Card img{
     height: 25vh;
-    width: auto;
+    width: 80vw;
     object-fit: cover;
     border-radius: 15px 15px  0 0 ;
+  }
+
+  .Testi-Carousel{
+    overflow:auto;
+  }
+
+  .DoubleImage {
+    display: none;
+  }
+
+  .Footer{
+    font-size: 0.9em;
+  }
+  .Footer img {
+    height: 179px;
+    width: auto;
   }
 }

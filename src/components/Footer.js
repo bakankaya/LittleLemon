@@ -19,9 +19,9 @@ const Footer = () => {
                 <li>email</li>
             </ul>
             <ul>Social Media Links
-                <li>Adress</li>
-                <li>phone number</li>
-                <li>email</li>
+                <li><a href="/">Facebook</a></li>
+                <li><a href="/">Twitter</a></li>
+                <li><a href="/">Instagram</a></li>
             </ul>
         </div>
     );

@@ -11,7 +11,7 @@ const BookingForm = (props) =>{
 
     const handleSumbit = (e) => {
         e.preventDefault();
-        // props.submitForm(e);
+        props.submitForm(e);
     };
 
     const handleChange = (e) => {
@@ -89,7 +89,7 @@ const BookingForm = (props) =>{
                     />
                     <input
                         className="Button"
-                        type="submit"
+                        type={"submit"}
                         value="Make Your reservation"
                     />
                 </form>
