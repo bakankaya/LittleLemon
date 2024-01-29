@@ -11,7 +11,7 @@ const BookingForm = (props) =>{
 
     const handleSumbit = (e) => {
         e.preventDefault();
-        props.submitForm(e);
+        // props.submitForm(e);
     };
 
     const handleChange = (e) => {
