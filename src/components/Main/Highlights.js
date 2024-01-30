@@ -19,7 +19,7 @@ const Main = () =>{
                         <h4>$12.99</h4>
                     </div>
                     <p>The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. </p>
-                    <button>Order a Delivery</button>
+
                 </div>
                 <div className="Card">
                     <img src={pic3} alt="Bruschetta"></img>
@@ -28,7 +28,7 @@ const Main = () =>{
                         <h4>$5.99</h4>
                     </div>
                     <p>Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil. </p>
-                    <button>Order a Delivery</button>
+
                 </div>
                 <div className="Card">
                     <img src={pic4} alt="Lemon Dessert"></img>
@@ -37,7 +37,7 @@ const Main = () =>{
                         <h4>$5.00</h4>
                     </div>
                     <p>This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.</p>
-                    <button>Order a Delivery</button>
+
                 </div>
             </div>
         </div>

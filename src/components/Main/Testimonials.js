@@ -4,7 +4,6 @@ import testi1 from '../../images/testi1.jpg';
 import testi2 from '../../images/testi2.jpg';
 import testi3 from '../../images/testi3.jpg';
 import testi4 from '../../images/testi4.jpg';
-import rating from '../../images/rating.png';
 
 const Main = () =>{
     return(
